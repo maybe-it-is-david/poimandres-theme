@@ -1226,6 +1226,30 @@ function schema({ colors, styles }) {
         "settings": {
           "foreground": "${colors.gray}"
         }
+      },
+      {
+        "scope": ["keyword.fsharp", "binding.fsharp", "keyword.control"],
+        "settings": {
+          "foreground": "#5DE4c7"
+        }
+      },
+      {
+        "scope": ["keyword.symbol"],
+        "settings": {
+          "foreground": "${colors.hotRed}"
+        }
+      },
+      {
+        "scope": ["entity.name.type.fsharp"],
+        "settings": {
+          "foreground": "${colors.brightYellow}"
+        }
+      },
+      {
+        "scope": ["variable.fsharp"],
+        "settings": {
+          "foreground": "${colors.lowerBlue}"
+        }
       }
     ]
   }
